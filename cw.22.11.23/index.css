@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.main-header{
+    padding-top: 192px;
+    background-image: linear-gradient(rgba(64,65,73,0.9), rgba(64,65,73,0.9)) ,url(https://s0.rbk.ru/v6_top_pics/media/img/8/30/756659883010308.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-header>h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 500;
+    max-width: 734px;
+    text-align: center;
+    margin: 0 auto 20px;
+    text-transform: uppercase;
+    line-height: 94.85px;
+}
+.main-header>h2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto 20px;
+    max-width: 734px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.medals{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 57px 0;
+    gap: 30px;
+}
+.medals header{
+    font-weight: 500;
+    font-size: 72px;
+    color: #f7654a;
+    line-height: 106px;
+    text-align: center;
+}
+.medals> *{
+    flex-basis: 190px;
+}
+.medals div:nth-child(2){
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 53px;
+}
+
+.medals div:last-child{
+    color: #999;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.arena-wrapper{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.arena-wrapper > h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #404149;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.arena-cards{
+    display: flex; 
+    gap: 30px;
+}
+.arena-cards article {
+    flex-basis: 33%;
+}
+
+.arena-cards img {
+    max-width: 100%;
+}
+
+.arena-cards h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #404149;
+    margin: 66px 0 20px;
+    position: relative;
+}
+
+.arena-cards p {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #999;
+}
+
+.arena-cards h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 55px;
+    height: 6px;
+    background-color:#F7654A ;
+}
+
+
+.projects-wrapper {
+    background-color: #F7654A;
+    color: #fff;
+}
+
+.projects-main{
+    display: flex;
+}
+
+.projects-main header h3{
+    font-size: 48px;
+    line-height: 71px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.projects-main header h4{
+    font-size: 24px;
+    line-height: 45px;
+}
+
+.projects-main button{
+    width: 175px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-left: auto;
+    align-self: center;
+}
+
+.projects-main button:hover{
+    background-color: bisque;
+}
+.cards-wrapper{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.cards-wrapper>h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 66px; 
+    
+}
+
+.icon{
+    color: #F7654A;
+    font-size: 48px;
+    
+}
+.cards>*{
+    flex-basis: 350px;
+}
+
+.cards{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.cards p {
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+}
+.cards article{
+    background-color: #F7F7F7;
+    text-align: center;
+    padding: 59px 0;
+    
+}
+
+.contacts h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.cont_info{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.icons {
+    font-size: 48px;
+    line-height: 40px;
+    color: #F7654A;
+    margin-bottom: 36px;
+}
+.cont_info article{
+    text-align: center;
+
+}
+.pho{
+    transform: rotate(-90deg);
+}
+.cont_info h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+    margin-bottom: 25px;
+}
+.cont_info p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+}
+.cont_info a {
+    color: #F7654A;
+}
+
+.cont_info>*{
+    flex-basis: 255px;
+}
+
+.main-footer{
+    margin-top: 60px;
+    background-color:  #404149;
+    color: #fff;
+}
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.main-footer p{
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 30px auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 750px){
+
+    .main-header h1{
+
+        font-size: 24px;
+        line-height: 34px;
+
+    }
+    .main-header h2 {
+
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+}
+@media screen and (max-width: 450px){
+    .medals{
+        flex-wrap: wrap;
+    }
+    .medals header{
+        font-size:  30px;
+        line-height: 35px;
+    }
+    .medals div:nth-child(2){
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 450px){
+
+    .projects-main>header>h3{
+
+        font-size: 24px;
+        line-height: 34px;
+
+    }
+    .projects-main>header>h4 {
+
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .projects-main button{
+        width: 45px;
+        height: 20px;
+        font-size: 8px;
+        line-height: 12px;
+    }
+}
+@media screen and (max-width: 450px){
+    .medals{
+        flex-wrap: wrap;
+    }
+    .arena-cards{
+        flex-wrap: wrap;
+    }
+    .projects-main{
+        flex-wrap: wrap;
+    }
+    .projects-main > button{
+        margin-left: 0;
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width:450px){
+    .arena-cards > article {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .cards-wrapper p{
+        font-size:  16px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 450px){
+
+    .cards-wrapper h4{
+        font-size:  24px;
+        line-height: 34px;
+    }
+}
+@media screen and (max-width: 450px){
+
+    .cards-wrapper i{
+        font-size:  24px;
+        line-height: 34px;
+    }
+}
+@media screen and (max-width: 450px){
+
+    .cards>*{
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width: 450px){
+
+    .contacts h3{
+        font-size: 25px;
+        line-height: 32px;
+    }
+}
+
+    
+
+
